@@ -28,7 +28,8 @@ Features
 
 An API for fake disater tweet detection using machine learning.
 
-* Dataset used --> `Kaggle<https://www.kaggle.com/competitions/nlp-getting-started>`_.
+* Dataset used --> 
+.. _Kaggle: https://www.kaggle.com/competitions/nlp-getting-started
 
 
 * Deploy API -->
@@ -43,7 +44,7 @@ curl -X GET http://127.0.0.1:5000/ -d query='UFO caused a landslide'
 
 Credits
 -------
-`Kaggle<https://www.kaggle.com/competitions/nlp-getting-started>`_.
+.. _Kaggle: https://www.kaggle.com/competitions/nlp-getting-started
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
