@@ -1,5 +1,5 @@
 ============
-APIBlueprint
+DisaterTweetsAPI
 ============
 
 
@@ -16,7 +16,7 @@ APIBlueprint
 
 
 
-blueprint for ML API projects
+ML API projects for fake disater twet detection
 
 
 * Free software: MIT license
