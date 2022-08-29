@@ -5,7 +5,7 @@
 import pytest
 
 
-from apiblueprint import apiblueprint
+from DisasterTweetsAPI import apiblueprint
 
 
 @pytest.fixture
