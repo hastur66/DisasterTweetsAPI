@@ -3,19 +3,19 @@ from flask_restful import reqparse, abort, Api, Resource
 import pickle
 import numpy as np
 from yaml import parse
-from model import NLPModel
+from DisasterTweetsAPI.model import NLPModel
 
 app = Flask(__name__)
 api = Api(app)
 
 model = NLPModel()
 
-model_path = 'lib/models/DisasterClassifier.pkl'
+model_path = 'DisasterTweetsAPI/lib/models/DisasterClassifier.pkl'
 
 with open(model_path, 'rb') as f:
     model.clf = pickle.load(f)
 
-vec_path = 'lib/models/CountVectorizer.pkl'
+vec_path = 'DisasterTweetsAPI/lib/models/CountVectorizer.pkl'
 
 with open(vec_path, 'rb') as f:
     model.vectorizer = pickle.load(f)
