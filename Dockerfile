@@ -13,4 +13,4 @@ COPY ./DisasterTweetsAPI /app/
 
 EXPOSE 5035
 
-CMD ['python' 'app.py']
+CMD ["python", "app.py"]
